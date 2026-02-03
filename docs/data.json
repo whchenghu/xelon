@@ -1211,6 +1211,69 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cs-overview",
+      "name": "计算机系统概论",
+      "submodules": [
+        {
+          "id": "storage-system",
+          "name": "存储系统",
+          "topics": [
+            {
+              "id": "optical-storage-mpeg",
+              "name": "光盘介质容量与MPEG标准概览",
+              "points": [
+                {
+                  "id": "cs-storage-dvd-mpeg",
+                  "title": "DVD容量与MPEG系列定位",
+                  "content": "MPEG-1：最早的数字音视频编码标准之一，主要用于VCD（视频光盘）和MP3等音视频压缩格式。\nMPEG-2：用于数字电视、DVD（数字视频光盘）和数字广播等领域，视频质量更高、压缩比更高。\nMPEG-4：支持数字电视、互联网视频流媒体、多媒体交互等，压缩效率更高、功能更多。\nMPEG-7：基于描述性元数据的标准，用于描述与检索多媒体内容，多媒体内容描述接口。\nMPEG-21：用于多媒体框架与交互。\nMPEG-DASH：用于流媒体传输。\n归纳：MPEG-1/2/4涉及音视频编码；MPEG-7/21不涉及音视频编码。\n从小到大作用：VCD、DVD、数字电视、接口标准、框架标准。",
+                  "summary": "DVD容量由层/面组合决定；MPEG体系含编码与描述/框架标准。",
+                  "conclusion": "结论：双层双面DVD约17GB",
+                  "rules": "单面单层4.7GB；单面双层8.5GB；双面单层9.4GB；双面双层17GB；MPEG-1/2/4为编码，MPEG-7为描述接口，MPEG-21为框架，DASH为传输",
+                  "pitfalls": [
+                    "把MPEG当容量指标",
+                    "混淆双层与双面",
+                    "把MPEG-7/21当成编码标准"
+                  ],
+                  "steps": [
+                    "识别“只读DVD、双层双面”",
+                    "套用容量对照表",
+                    "得出17GB并选C"
+                  ],
+                  "examples": [
+                    {
+                      "question": "双层双面的只读DVD盘片的存储容量可以达到（ ）。",
+                      "options": [
+                        {
+                          "key": "A",
+                          "text": "4.7GB"
+                        },
+                        {
+                          "key": "B",
+                          "text": "8.5GB"
+                        },
+                        {
+                          "key": "C",
+                          "text": "17GB"
+                        },
+                        {
+                          "key": "D",
+                          "text": "6.6GB"
+                        }
+                      ],
+                      "answer": "C",
+                      "analysis": "双层双面=2层×2面，对应约17GB；MPEG属于多媒体标准体系，不影响盘片物理容量。"
+                    }
+                  ],
+                  "images": [],
+                  "notes": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
