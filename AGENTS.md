@@ -13,9 +13,9 @@
 - 例题与解析：放在知识点条目中
 
 ## 二、数据文件
-- JSON 文件：`/mnt/c/code/ruankao/web/data.json`
-- HTML 文件：`/mnt/c/code/ruankao/web/index.html`
-- 图片目录：`/mnt/c/code/ruankao/web/imgs`
+- JSON 文件：`/mnt/c/code/ruankao/docs/data.json`
+- HTML 文件：`/mnt/c/code/ruankao/docs/index.html`
+- 图片目录：`/mnt/c/code/ruankao/docs/imgs`
 
 ## 三、解析输出与记录规范
 你必须给出：解答 + 深入解析 + 知识点记录（结构化）。
